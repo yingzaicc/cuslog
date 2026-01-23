@@ -1,8 +1,15 @@
 {
+  "locale": "zh-CN",
+  "language": "chinese",
   "permissions": {
     "allow": [
-      "Edit",
-      "Bash(cd:*)"
+      "Bash(ls:*)",
+      "mcp__acp__Bash"
     ]
-  }
+  },
+  "enabledPlugins": {
+    "glm-plan-usage@zai-coding-plugins": true,
+    "glm-plan-bug@zai-coding-plugins": true
+  },
+  "outputStyle": "Default"
 }
